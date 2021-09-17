@@ -1,0 +1,16 @@
+{
+    "name": "yasd/redis",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "YaSD\\Redis\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "ext-redis": "*"
+    }
+}
